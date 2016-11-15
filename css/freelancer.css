@@ -33,7 +33,8 @@ h6 {
 }
 hr.star-light,
 hr.star-dark,
-hr.star-primary {
+hr.star-primary,
+hr.star {
   padding: 0;
   border: none;
   border-top: solid 5px;
@@ -56,7 +57,9 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #46c9af;
+  /*background-color: #46c9af; */
+  /* background-color: #b49463; */
+  background-color: #b4996a;
   color: white;
 }
 hr.star-dark:after {
@@ -71,6 +74,10 @@ hr.star-primary:after {
 }
 .img-centered {
   margin: 0 auto;
+}
+
+.img-circle {
+    border-radius: 90%;
 }
 
 header {
@@ -337,7 +344,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #18BC9C;
+  color: #2C3E50;
   background: white;
   border: solid 2px white;
 }
