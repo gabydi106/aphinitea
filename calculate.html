@@ -129,10 +129,34 @@
 							<center> <img src="img/jane-bg.png" class="img-responsive" alt="" width="75%"> 
 							<h5>Jane</h5>					
 						</div> 
+						<h4></h4>
+						<form action="get" id="cakeform">
+						<h3>2. What size? </h3>
+						  <input id="size1" type="radio" name="size" value="size1" onclick="calculateTotal()">
+						  <label for="size1">Size 1</label>
+						  <input id="size2" type="radio" name="size" value="size2" onclick="calculateTotal()">
+						  <label for="size2">Size 2</label>
+						  <input id="size3" type="radio" name="size" value="size3" onclick="calculateTotal()">
+						  <label for="size3">Size 3</label>
+						<h3>3. What Material?</h3>
+						  <input id="material1" type="radio" name="material" value="kraft" onclick="calculateTotal()">
+						  <label for="material1">Kraft</label>
+						  <input id="material2" type="radio" name="material" value="white" onclick="calculateTotal()">
+						  <label for="material2">White</label>
+						<h3>4. What finish?</h3>
+						  <input id="finish1" type="radio" name="finish" value="none" onclick="calculateTotal()">
+						  <label for="finish1">None</label>
+						  <input id="finish2" type="radio" name="finish" value="inside" onclick="calculateTotal()">
+						  <label for="finish2">Waterproof interior</label>
+						  <input id="finish3" type="radio" name="finish" value="bothsides" onclick="calculateTotal()">
+						  <label for="finish3">Both Sides Waterproof</label>
+				  
+				  <br><br><button type="submit">submit</button>
+			</form> 
 					</div>
-					<div class="col-xs-12 col-md-4 fixedElement">
+					<div class="col-xs-12 col-md-4">
 							<h3>Total Price
-							<div id="totalPrice">change</div>
+							<div id="totalPrice"></div>
 							</h3>
 					</div>
 				</div>
@@ -143,29 +167,7 @@
 	<section id="calculate">
 			<div class="container"> 
 			
-			<form action="get" id="cakeform">
-				<h3>2. What size? </h3>
-				  <input id="size1" type="radio" name="size" value="size1" onclick="calculateTotal()">
-				  <label for="size1">Size 1</label>
-				  <input id="size2" type="radio" name="size" value="size2" onclick="calculateTotal()">
-				  <label for="size2">Size 2</label>
-				  <input id="size3" type="radio" name="size" value="size3" onclick="calculateTotal()">
-				  <label for="size3">Size 3</label>
-				<h3>3. What Material?</h3>
-				  <input id="material1" type="radio" name="material" value="kraft" onclick="calculateTotal()">
-				  <label for="material1">Kraft</label>
-				  <input id="material2" type="radio" name="material" value="white" onclick="calculateTotal()">
-				  <label for="material2">White</label>
-				<h3>4. What finish?</h3>
-				  <input id="finish1" type="radio" name="finish" value="none" onclick="calculateTotal()">
-				  <label for="finish1">None</label>
-				  <input id="finish2" type="radio" name="finish" value="inside" onclick="calculateTotal()">
-				  <label for="finish2">Waterproof interior</label>
-				  <input id="finish3" type="radio" name="finish" value="bothsides" onclick="calculateTotal()">
-				  <label for="finish3">Both Sides Waterproof</label>
-				  
-				  <br><br><button type="submit">submit</button>
-			</form> 
+			
 				
 			</div>
 	</section>
