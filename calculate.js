@@ -39,7 +39,7 @@ function getCakeSizePrice()
 	//We loop through each radio buttons
 	for(var i = 0; i < selectedCake.length; i++)
 	{
-		if(selectedCake[i].checked) //CHANGE TO if ___ has class 'active' then
+		if(selectedCake[i].checked) 
 		{
 			//we set cakeSizePrice to the value of the selected radio button
 			//i.e. if the user choose the 8" cake we set it to 25

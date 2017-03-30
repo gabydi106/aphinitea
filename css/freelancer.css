@@ -18,7 +18,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #F7B1AB;
   outline: none;
 }
 h1,
@@ -57,7 +57,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  /*background-color: #46c9af; */
+  /*background-color: #FAFAFF; */
   /* background-color: #b49463; */
   background-color: #b4996a;
   color: white;
@@ -66,11 +66,11 @@ hr.star-dark:after {
 background-color: #4ba997 ;
 }
 hr.star-primary {
-  border-color: #2C3E50;
+  border-color: #5B616A;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: #5B616A;
 }
 .img-centered {
   margin: 0 auto;
@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
   text-align: center;
   color: white;
-  background: #46c9af;
+  background: #FAFAFF;
   color: white;
   width: 100%;
 }
@@ -124,7 +124,7 @@ header .intro-text .skills {
 }
 
 .navbar-custom {
-  background: #2C3E50;
+  background: #5B616A;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 700;
   border: none;
@@ -148,7 +148,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: #F7B1AB;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -157,13 +157,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #F7B1AB;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #F7B1AB;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -173,9 +173,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: #F7B1AB;
   color: white;
-  border-color: #18BC9C;
+  border-color: #F7B1AB;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -205,8 +205,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #46c9af;
-  background: #46c9af;
+  background: #FAFAFF;
+  background: #FAFAFF;
   color: white;
   width: 100%;
 }
@@ -310,7 +310,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #F7B1AB;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -323,14 +323,14 @@ footer h3 {
 }
 footer .footer-above {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: #5B616A;
 }
 footer .footer-col {
   margin-bottom: 50px;
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: #161f29;
 }
 .btn-outline {
   color: white;
@@ -344,14 +344,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #2C3E50;
+  color: #5B616A;
   background: white;
   border: solid 2px white;
 }
 .btn-primary {
   color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #5B616A;
+  border-color: #5B616A;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -383,17 +383,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #5B616A;
+  border-color: #5B616A;
 }
 .btn-primary .badge {
-  color: #2C3E50;
+  color: #5B616A;
   background-color: white;
 }
 .btn-success {
   color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #F7B1AB;
+  border-color: #F7B1AB;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -425,11 +425,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #F7B1AB;
+  border-color: #F7B1AB;
 }
 .btn-success .badge {
-  color: #18BC9C;
+  color: #F7B1AB;
   background-color: white;
 }
 .btn-social {
@@ -501,7 +501,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #5B616A;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -512,7 +512,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: #5B616A;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
