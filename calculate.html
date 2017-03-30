@@ -45,12 +45,14 @@
 	  color: #ffffff;
 	}
 
-
-	.fixedElement {
+	@media (min-width:979px){
+		.fixedElement {
 		position:fixed;
 		top:20;
 		right:0;
 	}
+	}
+	
 	</style>
 
 </head>
@@ -166,7 +168,7 @@
 				  <br><br><button type="submit">submit</button>
 			</form> 
 					</div>
-					<div class="col-xs-12 col-md-4">
+					<div class="col-xs-12 col-md-4 fixedElement">
 							<h3>Total Price
 							<div id="totalPrice"></div>
 							</h3>
